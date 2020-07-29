@@ -1,0 +1,133 @@
+Python 3.7.3 (default, Apr 24 2019, 15:29:51) [MSC v.1915 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 7.6.1 -- An enhanced Interactive Python.
+
+Restarting kernel... 
+
+
+ 
+
+runfile('C:/Users/Karan_Desktop/Desktop/Projects/Minor Project/breast-cancer-classification/train_model.py', wdir='C:/Users/Karan_Desktop/Desktop/Projects/Minor Project/breast-cancer-classification')
+Using TensorFlow backend.
+Found 199818 images belonging to 2 classes.
+Found 22201 images belonging to 2 classes.
+WARNING: Logging before flag parsing goes to stderr.
+W1205 20:52:16.553386  2536 deprecation_wrapper.py:119] From C:\ProgramData\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W1205 20:52:16.564384  2536 deprecation_wrapper.py:119] From C:\ProgramData\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+W1205 20:52:16.566355  2536 deprecation_wrapper.py:119] From C:\ProgramData\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+W1205 20:52:16.597387  2536 deprecation_wrapper.py:119] From C:\ProgramData\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+Found 55505 images belonging to 2 classes.
+W1205 20:52:16.597387  2536 deprecation_wrapper.py:119] From C:\ProgramData\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:181: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+W1205 20:52:17.285336  2536 deprecation_wrapper.py:119] From C:\ProgramData\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:1834: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+W1205 20:52:17.342342  2536 deprecation_wrapper.py:119] From C:\ProgramData\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:3976: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W1205 20:52:17.346340  2536 deprecation.py:506] From C:\ProgramData\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W1205 20:52:17.783334  2536 deprecation_wrapper.py:119] From C:\ProgramData\Anaconda3\lib\site-packages\keras\optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W1205 20:52:17.789335  2536 deprecation.py:323] From C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\ops\nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+Epoch 1/40
+6244/6244 [==============================] - 406s 65ms/step - loss: 0.3641 - acc: 0.8464 - val_loss: 0.4093 - val_acc: 0.8339
+Epoch 2/40
+6244/6244 [==============================] - 375s 60ms/step - loss: 0.3371 - acc: 0.8578 - val_loss: 0.4286 - val_acc: 0.8262
+Epoch 3/40
+6244/6244 [==============================] - 307s 49ms/step - loss: 0.3326 - acc: 0.8596 - val_loss: 0.3968 - val_acc: 0.8393
+Epoch 4/40
+6244/6244 [==============================] - 283s 45ms/step - loss: 0.3294 - acc: 0.8604 - val_loss: 0.4070 - val_acc: 0.8328
+Epoch 5/40
+6244/6244 [==============================] - 288s 46ms/step - loss: 0.3278 - acc: 0.8621 - val_loss: 0.4000 - val_acc: 0.8369
+Epoch 6/40
+6244/6244 [==============================] - 299s 48ms/step - loss: 0.3270 - acc: 0.8621 - val_loss: 0.4118 - val_acc: 0.8337
+Epoch 7/40
+6244/6244 [==============================] - 380s 61ms/step - loss: 0.3256 - acc: 0.8631 - val_loss: 0.4030 - val_acc: 0.8357
+Epoch 8/40
+6244/6244 [==============================] - 293s 47ms/step - loss: 0.3253 - acc: 0.8625 - val_loss: 0.4063 - val_acc: 0.8346
+Epoch 9/40
+6244/6244 [==============================] - 234s 37ms/step - loss: 0.3259 - acc: 0.8621 - val_loss: 0.4078 - val_acc: 0.8334
+Epoch 10/40
+6244/6244 [==============================] - 189s 30ms/step - loss: 0.3252 - acc: 0.8627 - val_loss: 0.3977 - val_acc: 0.8385
+Epoch 11/40
+6244/6244 [==============================] - 188s 30ms/step - loss: 0.3253 - acc: 0.8626 - val_loss: 0.4081 - val_acc: 0.8338
+Epoch 12/40
+6244/6244 [==============================] - 189s 30ms/step - loss: 0.3248 - acc: 0.8627 - val_loss: 0.4087 - val_acc: 0.8326
+Epoch 13/40
+6244/6244 [==============================] - 188s 30ms/step - loss: 0.3246 - acc: 0.8633 - val_loss: 0.4121 - val_acc: 0.8320
+Epoch 14/40
+6244/6244 [==============================] - 188s 30ms/step - loss: 0.3241 - acc: 0.8639 - val_loss: 0.3990 - val_acc: 0.8378 - ETA: 1:37 - loss: 0.3249 - acc: 0.8631
+Epoch 15/40
+6244/6244 [==============================] - 229s 37ms/step - loss: 0.3244 - acc: 0.8636 - val_loss: 0.3979 - val_acc: 0.8371
+Epoch 16/40
+6244/6244 [==============================] - 315s 50ms/step - loss: 0.3240 - acc: 0.8638 - val_loss: 0.3968 - val_acc: 0.8380
+Epoch 17/40
+6244/6244 [==============================] - 205s 33ms/step - loss: 0.3232 - acc: 0.8641 - val_loss: 0.3978 - val_acc: 0.8375
+Epoch 18/40
+6244/6244 [==============================] - 187s 30ms/step - loss: 0.3224 - acc: 0.8648 - val_loss: 0.4004 - val_acc: 0.8366
+Epoch 19/40
+6244/6244 [==============================] - 187s 30ms/step - loss: 0.3230 - acc: 0.8637 - val_loss: 0.4018 - val_acc: 0.8353
+Epoch 20/40
+6244/6244 [==============================] - 188s 30ms/step - loss: 0.3241 - acc: 0.8640 - val_loss: 0.4035 - val_acc: 0.8349
+Epoch 21/40
+6244/6244 [==============================] - 187s 30ms/step - loss: 0.3226 - acc: 0.8642 - val_loss: 0.4047 - val_acc: 0.8349
+Epoch 22/40
+6244/6244 [==============================] - 228s 37ms/step - loss: 0.3234 - acc: 0.8634 - val_loss: 0.4036 - val_acc: 0.8345
+Epoch 23/40
+6244/6244 [==============================] - 352s 56ms/step - loss: 0.3231 - acc: 0.8637 - val_loss: 0.4046 - val_acc: 0.8341
+Epoch 24/40
+6244/6244 [==============================] - 188s 30ms/step - loss: 0.3228 - acc: 0.8641 - val_loss: 0.3965 - val_acc: 0.8390
+Epoch 25/40
+6244/6244 [==============================] - 388s 62ms/step - loss: 0.3233 - acc: 0.8636 - val_loss: 0.4018 - val_acc: 0.8365
+Epoch 26/40
+6244/6244 [==============================] - 361s 58ms/step - loss: 0.3226 - acc: 0.8645 - val_loss: 0.3974 - val_acc: 0.8381
+Epoch 27/40
+6244/6244 [==============================] - 344s 55ms/step - loss: 0.3235 - acc: 0.8638 - val_loss: 0.4063 - val_acc: 0.8333
+Epoch 28/40
+6244/6244 [==============================] - 344s 55ms/step - loss: 0.3229 - acc: 0.8641 - val_loss: 0.4063 - val_acc: 0.8332
+Epoch 29/40
+6244/6244 [==============================] - 337s 54ms/step - loss: 0.3232 - acc: 0.8636 - val_loss: 0.4009 - val_acc: 0.8362
+Epoch 30/40
+6244/6244 [==============================] - 321s 51ms/step - loss: 0.3225 - acc: 0.8646 - val_loss: 0.3975 - val_acc: 0.8380
+Epoch 31/40
+6244/6244 [==============================] - 290s 46ms/step - loss: 0.3227 - acc: 0.8641 - val_loss: 0.4010 - val_acc: 0.8367
+Epoch 32/40
+6244/6244 [==============================] - 279s 45ms/step - loss: 0.3227 - acc: 0.8640 - val_loss: 0.4005 - val_acc: 0.8369
+Epoch 33/40
+6244/6244 [==============================] - 247s 40ms/step - loss: 0.3228 - acc: 0.8636 - val_loss: 0.4013 - val_acc: 0.8359
+Epoch 34/40
+6244/6244 [==============================] - 371s 59ms/step - loss: 0.3236 - acc: 0.8646 - val_loss: 0.4027 - val_acc: 0.8346
+Epoch 35/40
+6244/6244 [==============================] - 394s 63ms/step - loss: 0.3226 - acc: 0.8646 - val_loss: 0.3979 - val_acc: 0.8379
+Epoch 36/40
+6244/6244 [==============================] - 337s 54ms/step - loss: 0.3228 - acc: 0.8640 - val_loss: 0.4024 - val_acc: 0.8356
+Epoch 37/40
+6244/6244 [==============================] - 346s 55ms/step - loss: 0.3221 - acc: 0.8648 - val_loss: 0.4029 - val_acc: 0.8354
+Epoch 38/40
+6244/6244 [==============================] - 323s 52ms/step - loss: 0.3217 - acc: 0.8639 - val_loss: 0.4016 - val_acc: 0.8369
+Epoch 39/40
+6244/6244 [==============================] - 219s 35ms/step - loss: 0.3227 - acc: 0.8639 - val_loss: 0.3998 - val_acc: 0.8377
+Epoch 40/40
+6244/6244 [==============================] - 187s 30ms/step - loss: 0.3221 - acc: 0.8640 - val_loss: 0.4034 - val_acc: 0.8356
+[INFO] evaluating network...
+              precision    recall  f1-score   support
+
+           0       0.94      0.82      0.88     39793
+           1       0.66      0.86      0.75     15712
+
+    accuracy                           0.84     55505
+   macro avg       0.80      0.84      0.81     55505
+weighted avg       0.86      0.84      0.84     55505
+
+[[32771  7022]
+ [ 2129 13583]]
+acc: 0.8351
+sensitivity: 0.8235
+specificity: 0.8645
